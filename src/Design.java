@@ -47,7 +47,7 @@ public class Design extends Application {
         gridLayout.add(btnAnnuel,1, 3);
 
         Label premiereColonne = new Label("Label colonne 1");
-        String steack = "^\\d$";
+        String steack = "test";
         TextField txtFdHoraire = new TextField(steack);
         TextField txtFdMensuel = new TextField();
         TextField txtFdAnnuel = new TextField();
