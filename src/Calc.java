@@ -1,10 +1,10 @@
 public class Calc {
-    private double smicHorBrut = 10.15;
-    private double smicHorNet = 7.81;
-    private double smicMensBrut = 1539;
-    private double smicMensNet = 1185;
-    private double smicAnnBrut = 18468;
-    private double smicAnnNet = 14220;
+    public double smicHorBrut = 10.15;
+    public final double smicHorNet = 7.81;
+    public double smicMensBrut = 1539;
+    public double smicMensNet = 1185;
+    public double smicAnnBrut = 18468;
+    public double smicAnnNet = 14220;
 
     public double HorBrutVersNet( double valeurHor) {
         double resValHorNet = smicHorNet * valeurHor / smicHorBrut ;
