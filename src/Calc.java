@@ -1,13 +1,15 @@
+
 public class Calc {
     public double smicHorBrut = 10.15;
-    public final double smicHorNet = 7.81;
-    public double smicMensBrut = 1539;
+    public double smicHorNet = 7.81;
+    public double smicMensBrut = 1539.42;
     public double smicMensNet = 1185;
     public double smicAnnBrut = 18468;
     public double smicAnnNet = 14220;
 
+
     public double HorBrutVersNet( double valeurHor) {
-        double resValHorNet = smicHorNet * valeurHor / smicHorBrut ;
+        double resValHorNet = (smicHorNet * valeurHor) / smicHorBrut ;
         return resValHorNet;
     }
     public double MensBrutVersNet( double valeurMen) {
@@ -32,5 +34,52 @@ public class Calc {
         return resValAnnBrut;
     }
 
+    public double getSmicHorBrut() {
+        return smicHorBrut;
+    }
+
+    public void setSmicHorBrut(double smicHorBrut) {
+        this.smicHorBrut = smicHorBrut;
+    }
+
+    public double getSmicHorNet() {
+        return smicHorNet;
+    }
+
+    public void setSmicHorNet(double smicHorNet) {
+        this.smicHorNet = smicHorNet;
+    }
+
+    public double getSmicMensBrut() {
+        return smicMensBrut;
+    }
+
+    public void setSmicMensBrut(double smicMensBrut) {
+        this.smicMensBrut = smicMensBrut;
+    }
+
+    public double getSmicMensNet() {
+        return smicMensNet;
+    }
+
+    public void setSmicMensNet(double smicMensNet) {
+        this.smicMensNet = smicMensNet;
+    }
+
+    public double getSmicAnnBrut() {
+        return smicAnnBrut;
+    }
+
+    public void setSmicAnnBrut(double smicAnnBrut) {
+        this.smicAnnBrut = smicAnnBrut;
+    }
+
+    public double getSmicAnnNet() {
+        return smicAnnNet;
+    }
+
+    public void setSmicAnnNet(double smicAnnNet) {
+        this.smicAnnNet = smicAnnNet;
+    }
 
 }
